@@ -1,6 +1,6 @@
 export default (string) => {
 
-  const getOpArr = str => str.match(/(([0-9]+)|([()/x+-]))/g);
+  const getOpArr = str => str.match(/(([0-9.]+)|([()/x+-]))/g);
   const operation = operator => arr => {
     let i = arr.indexOf(operator);
     let item;
